@@ -106,6 +106,29 @@ header{
 /* .nav_links li a:hover{
   
 } */
+
+/* making navbar responsive */
+@media (max-width: 650px){
+  header{
+    flex-direction: column;
+    padding: 7px 0%;
+    height: 7rem;
+  }
+}
+@media (max-width: 400px){
+  .nav_links li {
+    padding: 0px 0px;
+  }
+
+  li, .btn {
+    font-size: 10px;
+  }
+}
+@media (max-width: 250px){
+  li, .btn {
+    font-size: 7px;
+  }
+}
 footer{
   position: relative;
   background: #010564;
