@@ -107,6 +107,15 @@ header{
   
 } */
 
+.title_pic:hover{
+  width: 102%;
+}
+
+.info_img:hover{
+  width: 90%;
+  border: 2px soild #0F0844;
+}
+
 /* making navbar responsive */
 @media (max-width: 650px){
   header{
@@ -129,6 +138,7 @@ header{
     font-size: 7px;
   }
 }
+
 footer{
   position: relative;
   background: #010564;
@@ -361,6 +371,7 @@ section p{
   column-gap: 0%;
   grid-template-columns: 1fr 1fr;
 }
+
 .list li{
   color: #000;
 }
