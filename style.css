@@ -266,6 +266,22 @@ footer {
 .company_add {
     color: var(--darker-blue);
 }
+/*wrapper class*/
+.wrapper{
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+.wrapper iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height:70%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+/*wrapper class*/
 
 footer .content {
     max-width: 1250px;
