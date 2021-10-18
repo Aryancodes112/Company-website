@@ -1,3 +1,8 @@
+/* Added */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+
 .sea_container{
   padding: 5% 3%;
 }
@@ -11,8 +16,8 @@
   font-size: 2em;
 }
 .sea_container p{
-  font-family: sans-serif;
-  font-size: 1.2em;
+  font-family: 'IM Fell English SC', serif;                                        /* changed */
+  font-size: 1.25em;                                                               /* changed */
   color: rgb(83, 83, 83);
   margin: 5%;
   margin-left: 0;
@@ -27,4 +32,5 @@
 .clr ul li{
   color: #000;
   font-size: 1.2em;
+  font-family: 'Nunito', sans-serif;                                             /* changed */ 
 }

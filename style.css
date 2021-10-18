@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+/* Added */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
 *{
   box-sizing: 0;
   margin: 0;
@@ -13,10 +17,10 @@ li, .btn{
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
-  color: #edf0f1;
+  color:white;
 }
 header{
-  background-color: #010564;
+  background-color: #82d2ee;                 /* changed */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -141,7 +145,7 @@ header{
 
 footer{
   position: relative;
-  background: #010564;
+  background: #82d2ee;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -160,7 +164,7 @@ footer .content .top{
   justify-content: space-around;
 }
 .content .top{
-  color: #fff;
+  color: white;
   font-size: 30px;
 }
 .content .top .media-icons{
@@ -185,7 +189,7 @@ footer .content .link-boxes{
   justify-content: space-around;
 }
 .content .link-boxes .box .company_name{
-  color: #fff;
+  color: white;                                                             /* changed */
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -215,16 +219,18 @@ footer .content .link-boxes{
 }
 .link-boxes .input-box{
   font-size: 16px;
-}
+  font-family: 'Nunito', sans-serif;                                 /* changed */
+} 
 .link-boxes .input-box {
   border: none;
   font-size: 18px;
   font-weight: 500;
+  font-family: 'Nunito', sans-serif;                                /* changed */ 
 }
 
 footer .bottom-details{
   width: 100%;
-  background: #0F0844;
+  background: #010564;
 }
 footer .bottom-details .bottom_text{
   max-width: 1250px;
@@ -342,7 +348,7 @@ section p{
   margin-left: 0;
 }
 .intro{
-  background-color: #010564;
+  background-color: #82d2ee;                     /* changed */
   color: #fff;
   display: grid;
   grid-template-columns: auto auto;
@@ -351,7 +357,8 @@ section p{
   padding: 1% 5%;
 }
 .title>h1{
-  font-size: 3em;
+  font-size: 2.7em;                                                     /* changed */
+  font-family: 'Nunito', sans-serif;                                    /* changed */
 }
 .title_pic>img{
   width: 95%;
@@ -397,7 +404,22 @@ section p{
     text-align: center;
   }
   .title>h1{
-    font-size: 10vw;
+    font-size: 7vw;                                               /* changed */
     margin: 4% 0;
   }
 }
+
+
+/* edited and extra added */
+
+.p1 {
+   font-family: 'IM Fell English SC', serif;
+   font-size: 19px;
+}
+.list li{
+  font-family: 'IM Fell English SC', serif;
+   font-size: 19px;
+}
+
+
+

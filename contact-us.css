@@ -31,7 +31,7 @@ input[type=text],input[type=email], textarea {
 }
 
 input[type=submit] {
-  background-color: #010564;
+  background-color: #299b4a;                                          /* changed */
   color: white;
   padding: 12px 20px;
   border: none;
@@ -42,7 +42,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #0a0f88;
+  background-color: #6d9733;                                        /* changed */
 }
 
 .container {
