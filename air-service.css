@@ -1,29 +1,49 @@
+
 /* Added */
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
 .air_container{
   padding: 5% 3%;
 }
-.clearance{
-  margin: 5% 0;
-  width: 80%;
+
+* {
+    color: var(--darker-blue);
 }
-.clearance h2{
-  margin-bottom: 2%;
+
+.air_container {
+    padding: 5% 3%;
 }
-.air_container h2{
-  font-size: 2.5em;
-  margin-bottom: 1%;
-  text-align: center;
-  margin-bottom: 5%;
+
+.clearance {
+    margin: 5% 0;
+    width: 80%;
 }
-.air_container h3{
-  font-size: 2em;
+
+.clearance h2 {
+    margin-bottom: 2%;
 }
+
+.air_container h2 {
+    font-size: 2.5em;
+    margin-bottom: 1%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
 .air_container p{
   font-family: 'IM Fell English SC', serif;                                    /* changed */
   font-size: 1.25em;                                                            /* changed */
   color: rgb(83, 83, 83);
   margin: 5%;
   margin-left: 0;
+}
+
+.air_container h3 {
+    font-size: 2em;
+}
+
+.air_container p {
+    font-size: 1.2em;
+    margin: 5%;
+    margin-left: 0;
 }
