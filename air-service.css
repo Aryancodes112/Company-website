@@ -1,3 +1,11 @@
+
+/* Added */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+.air_container{
+  padding: 5% 3%;
+}
+
 * {
     color: var(--darker-blue);
 }
@@ -20,6 +28,14 @@
     margin-bottom: 1%;
     text-align: center;
     margin-bottom: 5%;
+}
+
+.air_container p{
+  font-family: 'IM Fell English SC', serif;                                    /* changed */
+  font-size: 1.25em;                                                            /* changed */
+  color: rgb(83, 83, 83);
+  margin: 5%;
+  margin-left: 0;
 }
 
 .air_container h3 {
