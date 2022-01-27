@@ -12,7 +12,23 @@
   padding: 0;
 }
 /* Defining color variables */
+.intro{
+  width: 100vw;
+  margin-top: 25px;
+  background-image: url("images/img2.jpg");
+  color: black;
+  padding: 5px;
+  background-repeat: no-repeat;
+  background size: cover;
 
+
+}
+h1{
+  color: white;
+}
+.change{
+  margin-top: 35px;
+}
 :root {
     --darker-blue: #011f4b;
     --dark-blue: #03396c;
@@ -50,7 +66,7 @@ body {
     width: 100%;
 }
 
-li, 
+li,
 .btn {
     font-weight: 800;
     font-size: 20px;
@@ -279,7 +295,7 @@ header {
 
 
 /* .nav_links li a:hover{
-  
+
 } */
 
 footer {
@@ -434,12 +450,12 @@ footer .content .link-boxes {
 .link-boxes .input-box{
   font-size: 16px;
   font-family: 'Nunito', sans-serif;                                 /* changed */
-} 
+}
 .link-boxes .input-box {
   border: none;
   font-size: 18px;
   font-weight: 500;
-  font-family: 'Nunito', sans-serif;                                /* changed */ 
+  font-family: 'Nunito', sans-serif;                                /* changed */
 }
 
 footer .bottom-details{
